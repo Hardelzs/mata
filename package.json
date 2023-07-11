@@ -1,0 +1,14 @@
+{
+  "name": "ejax",
+  "version": "1.0.0",
+  "description": "A chatting website for easy communication",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "metagravity and hardelz",
+  "license": "ISC"
+}
