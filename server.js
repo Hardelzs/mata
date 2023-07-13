@@ -27,7 +27,7 @@ io.on('connection', function(socket) {
 });
 
 // Start the server
-server.listen(3001, function() {
-  console.log('Server listening on port 3001');
+server.listen(3002, function() {
+  console.log('Server listening on port 3002');
 });
 

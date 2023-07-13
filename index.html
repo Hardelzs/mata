@@ -3,12 +3,22 @@
 <head>
   <title>Chit Chat</title>
   <style>
+    /* body{
+      background: skyblue;
+    } */
     #chat-log {
       height: 200px;
       overflow-y: scroll;
       border: 1px solid #ccc;
       padding: 10px;
     }
+    /* #chat-log,#message-input{
+      color: blue;
+      border: 2px solid red;
+      margin-top: 30px;
+      width: 240px;
+      height: 70px;
+    } */
   </style>
 </head>
 <body>
@@ -17,7 +27,7 @@
   <button id="send-button">Send</button>
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script> -->
-  <script src="http://localhost:3001/socket.io/socket.io.js"></script>
+  <script src="http://localhost:3002/socket.io/socket.io.js"></script>
   <script>
     const socket = io();
 
